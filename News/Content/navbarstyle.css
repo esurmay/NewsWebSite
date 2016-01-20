@@ -1,0 +1,50 @@
+﻿#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(5, 5, 5, 1);
+}
+
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 1px;
+    border-radius: 0px;
+}
+
+    #custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+        color: rgba(46, 43, 43, 1);
+        background-color: rgba(248, 248, 248, 0);
+    }
+
+        #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
+        #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+            color: rgba(51, 51, 51, 1);
+            background-color: rgba(92, 90, 90, 1);
+            background: -webkit-linear-gradient(top, rgba(248, 248, 248, 0) 0%, rgba(92, 90, 90, 1) 100%);
+            background: linear-gradient(to bottom, rgba(248, 248, 248, 0) 0%, rgba(92, 90, 90, 1) 100%);
+        }
+
+    #custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
+    #custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:hover,
+    #custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:focus {
+        color: rgba(85, 85, 85, 1);
+        background-color: rgba(115, 111, 111, 1);
+        background: -webkit-linear-gradient(top, rgba(231, 231, 231, 1) 0%, rgba(115, 111, 111, 1) 100%);
+        background: linear-gradient(to bottom, rgba(231, 231, 231, 1) 0%, rgba(115, 111, 111, 1) 100%);
+    }
+
+    #custom-bootstrap-menu.navbar-default .navbar-toggle {
+        border-color: #736f6f;
+    }
+
+        #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+        #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+            background-color: #736f6f;
+        }
+
+        #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+            background-color: #736f6f;
+        }
+
+        #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+        #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+            background-color: #ffffff;
+        }
